@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename package &apos;pl.piomin.microservices.zipkin&apos; to &apos;com.ran.microservices.zipkin&apos;&#x0D;&#x0A;- Original project: &apos;zipkin-service&apos;&#x0D;&#x0A;- Original element: &apos;zipkin-service/src/main/java/pl.piomin.microservices.zipkin&apos;&#x0D;&#x0A;- Renamed element: &apos;zipkin-service/src/main/java/com.ran.microservices.zipkin&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings&#x0D;&#x0A;- Rename subpackages of the package" description="Rename package &apos;pl.piomin.microservices.zipkin&apos;" flags="589830" hierarchical="true" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;pl.piomin.microservices.zipkin" name="com.ran.microservices.zipkin" qualified="false" references="true" stamp="1548308422816" textual="false" version="1.0"/>
-</session>
