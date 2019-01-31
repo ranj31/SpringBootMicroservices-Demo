@@ -1,0 +1,3 @@
+server.port=8087
+spring.profiles.active=native
+spring.cloud.config.server.native.search-locations=file:///D:/ran-config/config
