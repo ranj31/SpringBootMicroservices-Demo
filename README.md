@@ -8,8 +8,15 @@ Providing service discovery for all microservices with Spring Cloud Netflix Eure
 Distributed configuration with Spring Cloud Config
 API Gateway pattern using a new project inside Spring Cloud: Spring Cloud Gateway
 Correlating logs with Spring Cloud Sleuth Before we proceed to the source code.
-It illustrates the architecture of our sample system. We have three independent microservices,
+The architecture of our application is that.
+We have three independent microservices,(department-service,employee-service and organization-service)
 which register themself in service discovery, fetch properties from configuration service and communicate with each other.
-The whole system is hidden behind API gateway.
+The whole system is hidden behind Zuul API gateway.
+
+We have implemented  2ways of config server
+1.config-service ->In this services configuration file available in classpath/config folder
+2.configsrv ->In this services configuration file available in file system(path of my file system is D:\ran-config\config)
+
+Both the services are running on 8060.At a time we have to run only one services.
 
 
